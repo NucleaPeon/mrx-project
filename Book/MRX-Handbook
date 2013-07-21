@@ -1,0 +1,24 @@
+\documentclass[a4paper,10pt]{article}
+%\documentclass[a4paper,10pt]{scrartcl}
+
+\usepackage[utf8]{inputenc}
+
+\title{MRX Handbook: Custom Toyota MR2 MK1}
+\author{Daniel Kettle}
+\date{}
+
+\pdfinfo{%
+  /Title    (MRX Handbook)
+  /Author   (Daniel Kettle)
+  /Creator  (LaTeX)
+  /Producer (Daniel Kettle)
+  /Subject  (Toyota MR2 Customization Project)
+  /Keywords (Toyota, MR2, MK1, 1986, Custom, Customization, Automotive, Mechanical)
+}
+
+\begin{document}
+\maketitle
+\newpage
+Test
+
+\end{document}
