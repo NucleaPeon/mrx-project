@@ -9,3 +9,7 @@ My discoveries will be documented for others to follow, in as much
 detail as I can manage. Images, PDFs, webpage caches, and videos
 are all possibilities upload.
 
+Planned upgrades:
+
+* Reinforced underside panels protecting engine and components
+* Rotory engine install
