@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=pdflatex 2013.7.12)  30 AUG 2013 15:44
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=pdflatex 2013.7.12)  6 SEP 2013 12:19
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -241,8 +241,7 @@ Now handling font encoding U ...
    defining Unicode char U+2026 (decimal 8230)
    defining Unicode char U+2122 (decimal 8482)
    defining Unicode char U+2423 (decimal 9251)
-))
-No file TheMrxProject.aux.
+)) (./TheMrxProject.aux)
 \openout1 = `TheMrxProject.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 9.
@@ -263,6 +262,7 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <8> on input line 10.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <6> on input line 10.
+
 [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [1]
@@ -287,18 +287,18 @@ Chapter 5.
 
 ] (./TheMrxProject.aux) ) 
 Here is how much of TeX's memory you used:
- 454 strings out of 495062
- 4430 string characters out of 3182744
- 48844 words of memory out of 3000000
- 3698 multiletter control sequences out of 15000+200000
- 7896 words of font info for 28 fonts, out of 3000000 for 9000
+ 459 strings out of 495062
+ 4514 string characters out of 3182744
+ 50844 words of memory out of 3000000
+ 3701 multiletter control sequences out of 15000+200000
+ 8808 words of font info for 31 fonts, out of 3000000 for 9000
  14 hyphenation exceptions out of 8191
- 23i,4n,19p,171b,179s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 23i,4n,19p,775b,179s stack positions out of 5000i,500n,10000p,200000b,50000s
 </usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/
 cmbx10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></u
 sr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-
 dist/fonts/type1/public/amsfonts/cm/cmr12.pfb>
-Output written on TheMrxProject.pdf (7 pages, 41250 bytes).
+Output written on TheMrxProject.pdf (7 pages, 55644 bytes).
 PDF statistics:
  44 PDF objects out of 1000 (max. 8388607)
  30 compressed objects within 1 object stream
