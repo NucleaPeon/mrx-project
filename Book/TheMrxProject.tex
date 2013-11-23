@@ -1,13 +1,18 @@
 \documentclass[a4paper,10pt]{report}
 \usepackage[utf8]{inputenc}
-
+\usepackage[toc]{glossaries}
+\usepackage[xindy]{imakeidx}
+\makeindex
+\makeglossary
 % Title Page
-\title{}
-\author{}
+\title{The MRX  Project}
+\author{Daniel Kettle}
 
 
 \begin{document}
+\include{AutomotiveGlossary}
 \maketitle
+
 
 \begin{abstract}
 \end{abstract}
@@ -15,16 +20,53 @@
 \chapter{Changelog}
 % List of changes from MR2 Configuration to MRX
 \chapter{Exterior}
-\section{Dual Side Air Intakes}
-\subsection{Function}
-\paragraph*{}The original MR2 Mk1 has one air intake on the passanger side of the vehicle with a fan and attached radiator / cooling system. This is used to cool the engine bay and coolant systems. For the ~100HP 4-AGE engine, this is adequate and there have been no heat issues during the lifetime of my MR2 ownership. However, replacing an engine with up to 2.4x more horsepower and lesser fuel economy may raise overall heat in the bay. This heat issue may be solved with a radiator above the engine similar to the Supercharged MR2 Mk1 version, where radiator is right below the engine lid (that has vents carved into it) to allow heat dissipation. 
 
+\section{Lights}
+\paragraph*{}All light bulbs should be replaced with efficient LEDs that are bright enough and legal to change over to. While decreasing electrical requirements very slightly, it will help in case of burnt out or non-functional bulbs due to redundancy.
+
+\section{Vents}
+\paragraph*{}The MR2 Mk1 has a few vents placed in various locations on the vehicle that allow for heat dissipation and air intake. Increasing the number of vents on the vehicle allows for up to 3 special cases in the MRX:
+\begin{itemize}
+ \item Cooling for radiators
+ \item Airflow (increase aerodynamics, releasing pressure areas, preventing buildup of hot air)
+ \item Air Intakes for the engine or intercooler
+\end{itemize}
+
+
+\section{Dual Side Air Intakes}
+\paragraph*{}The original MR2 Mk1 has one air intake on the passanger side of the vehicle with a fan and attached radiator / cooling system. This is used to cool the engine bay and coolant systems. For the ~100HP 4-AGE engine, this is adequate and there have been no heat issues during the lifetime of my MR2 ownership. However, replacing an engine with up to 2.4x more horsepower and lesser fuel economy may raise overall heat in the bay. This heat issue may be solved with a radiator above the engine similar to the Supercharged MR2 Mk1 version, where radiator is right below the engine lid (that has vents carved into it) to allow heat dissipation. 
 \paragraph*{}The point of having a secondary Air Intake on the Drivers-side of the body (where the fuel cap is located) is to enable either dual cooling systems or to enable a turbo air intake. The bay is rather small, so while a rotary engine would allow for more space, it still leaves little room for a turbo or additional cooling system. If cooling can be satisfied with an undercarriage cooling system and/or top engine radiator, or if the front radiator (where most conventional car radiators are located) was connected to the engine bay, twin turbos could be a very real possibility. If that's the case, I would have two smaller, responsive turbos installed to reduce turbo lag as much as possible while boosting engine performance.
+\paragraph*{See Engine Section ``Ram Air Intake'' }
+
 
 
 \chapter{Interior}
 \chapter{Performance}
+\section{Engine}
+\subsection{Rotory Bearings and Eccentric Shaft} 
+\paragraph*{}Any shaft component that is lighter and stronger than a default OEM Eccentric Shaft is one that potentially can increase overall rpm and longevity in an engine, particularly in high pressure turbo engines.
+\subsection{Intercooler} 
+\paragraph*{}Because of the inefficiencies in a rotory engine regarding total fuel combustion and heat, placing an intercooler between the engine and airfilter (or replacing airfilter altogether if cooler provides a filter) could increase fuel economy and environmental factors that are more of an issue with the engine. \textit{RESEARCH}
+\paragraph*{}Placement of the intercooler if on behalf on the engine would go in one of the dual side air intakes. If used as an air conditioner for the cab, it could be modified to work with the radiator or be placed in a hood scoop position.
+\paragraph*{Final Note} Intercoolers without turbos may decrease the total amount of horsepower due to energy requirements.
+\subsection{Turbo Configuration} 
+\paragraph*{}Turbos, especially in a rotory engine, are effective. However, turbo lag is one feature I despise. There are a few possible options, none of which are optimal. 
+\begin{itemize}
+ \item \textbf{Supercharged} - Less complex mechanism with no lag, uses more fuel and engine must be built well to handle additional horsepower, both from mechanical energy reduction from running the supercharger and from additional horsepower.
+ \item \textbf{Small Turbo} - Great power at low rpms (a problem with rotary engines), but has limited use in the entire range. With high rpms being a selling point of the rotory engine, this negates benefit and engine becomes more complicated to maintain.
+ \item \textbf{Large Turbo} - More lag and low power at low rpms. Unacceptable.
+ \item \textbf{Twin Turbo Configuration} - With two turbos that split exhaust, this covers the entire range but as with turbos, will change dynamic of the car, still have some (minor) lag and much additional complexity.
+ \item \textbf{Two Stage Turbo} - Two turbos in sequence, best option for using turbos but still has the issues of complexity, cost and heat.
+ \item \textbf{Twin Charged} - Supercharger and Turbo in use, expensive and inefficient although power output and response would be astounding.
+ \item \textbf{Naturally Aspirated} - While keeping low rpms fairly weak, the engine would be in a much lighter body, modified to be lighter and perhaps rev higher. Torque would be less of an issue and horsepower per tonne would be increased. Response would still be great, least amount of complexity (unless intercooler was connected) and turbos can always be added later. This is the best option until I have more experience in what I want.
+\end{itemize}
+\subsection{Ram Air Intake}
+\paragraph*{}Ram Air Intakes are air intakes that use vehicle movement to cut and force air into an intake which allows for higher oxygen content due to air physics. Efficiency gains will be in single digit percentages as Ram Air Intakes do not change the atmospheric pressure in a great way below super sonic speeds.
+\paragraph*{}These air intakes are not usable on carbarated engines unless the design accomodates the air intake.
+\section{Bore}\Gls{bore} is not applicable here. \glspl{bore}. \Gls{stroke}
+
 \chapter{Environmental Impact}
 
 
+\printglossaries
 \end{document}          
