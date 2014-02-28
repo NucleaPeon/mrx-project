@@ -1,20 +1,46 @@
 \documentclass[a4paper,10pt]{report}
 \usepackage[utf8]{inputenc}
-
+\usepackage[toc]{glossaries}
+\usepackage[xindy]{imakeidx}
+\makeindex
+\makeglossary
 % Title Page
-\title{}
-\author{}
+\title{The MRX  Project}
+\author{Daniel Kettle}
 
 
 \begin{document}
+\include{AutomotiveGlossary}
 \maketitle
+
 
 \begin{abstract}
 \end{abstract}
 
+\chapter{Pre-Reading}
+\begin{itemize}
+ \item MR2 Mk2 Roof Racks 
+ \begin{verbatim}
+  http://www.mr2oc.com/showthread.php?t=396411
+ \end{verbatim}
+
+\end{itemize}
+
+
 \chapter{Changelog}
 % List of changes from MR2 Configuration to MRX
+
 \chapter{Exterior}
+
+\section{Body}
+\paragraph*{}This section can be applicable to both interior and exterior as it affects both, but mainly exterior. The problem here is that the likelyhood of finding a Mk1 Toyota MR2 in very good condition or better is highly unlikely and expensive. With the advent of 3D metal printing, a better situation \textit{could} be to find a good body and re-print the body panels. To go even further, I could find a completely different car body, strip it down to the body and custom build it from there. From then on, finding a car with a body similar to that MR2 style is less trivial than ripping apart an actual model. For instance, Volvo bodies are boxy, but too long. If the added length is acceptable, that could be an option. A Fiero body could also work, but its age might work against it. There are not many cheap 2 seater or small new FWDs being produced and newer means more expensive. The Mk1 MR2 was built on an FWD body, so that isn't a problem; most FWDs are being produced as roundy looking aerodynamic blobs of ugly; I will have to deal with the roof since it determines part of the shape.
+
+\paragraph*{}Another point I would like to make is that if the body has a rear windshield and is a 4 seater, I would remove the glass windshield, install a metal grate-like sloping component where the glass used to be, seal off part of the back compartment with heat shield and find a windshield that fits above the heat shield and seals the top. Obviously, a 4 seater would involve much more work.
+
+
+
+\section{Lights}
+\paragraph*{}All light bulbs should be replaced with efficient LEDs that are bright enough and legal to change over to. While decreasing electrical requirements very slightly, it will help in case of burnt out or non-functional bulbs due to redundancy.
 
 \section{Vents}
 \paragraph*{}The MR2 Mk1 has a few vents placed in various locations on the vehicle that allow for heat dissipation and air intake. Increasing the number of vents on the vehicle allows for up to 3 special cases in the MRX:
@@ -23,6 +49,9 @@
  \item Airflow (increase aerodynamics, releasing pressure areas, preventing buildup of hot air)
  \item Air Intakes for the engine or intercooler
 \end{itemize}
+
+\section{Doors}
+\paragraph*{}
 
 
 \section{Dual Side Air Intakes}
@@ -33,6 +62,18 @@
 
 
 \chapter{Interior}
+\section{Dashboard}
+\paragraph*{} This will be custom made using the same odometer/tach/gauge box, but styled after a jet cockpit. All Dials should face the driver in a sharp, angular way. See the image %TODO
+\section{Lights}
+\paragraph*{}Strips of LEDs covered by a thin film (translucent, to prevent glare and blinding light) that can be dimmed should be placed in the cab: 
+\begin{itemize}
+ \item Around the moonroof
+ \item On the doors
+ \item Around switches and components, such as engine latch, arm rest, and above the footwells facing down to the floor.
+ \item Strips on both sides of the gearbox facing the doors
+\end{itemize}
+
+
 \chapter{Performance}
 \section{Engine}
 \subsection{Rotory Bearings and Eccentric Shaft} 
@@ -53,11 +94,12 @@
  \item \textbf{Naturally Aspirated} - While keeping low rpms fairly weak, the engine would be in a much lighter body, modified to be lighter and perhaps rev higher. Torque would be less of an issue and horsepower per tonne would be increased. Response would still be great, least amount of complexity (unless intercooler was connected) and turbos can always be added later. This is the best option until I have more experience in what I want.
 \end{itemize}
 \subsection{Ram Air Intake}
-\paragraph*{}Ram Air Intakes are air intakes that use vehicle movement to cut and force air into an intake which allows for higher oxygen content due to air physics.
+\paragraph*{}Ram Air Intakes are air intakes that use vehicle movement to cut and force air into an intake which allows for higher oxygen content due to air physics. Efficiency gains will be in single digit percentages as Ram Air Intakes do not change the atmospheric pressure in a great way below super sonic speeds.
 \paragraph*{}These air intakes are not usable on carbarated engines unless the design accomodates the air intake.
-
+\section{Bore}\Gls{bore} is not applicable here. \glspl{bore}. \Gls{stroke}
 
 \chapter{Environmental Impact}
 
 
+\printglossaries
 \end{document}          

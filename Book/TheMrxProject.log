@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=pdflatex 2013.11.19)  23 NOV 2013 08:06
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=pdflatex 2014.1.12)  28 FEB 2014 04:24
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -556,57 +556,63 @@ LaTeX Font Info:    ... okay on input line 12.
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [1]
 Chapter 1.
-[1
-
-]
-Chapter 2.
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 30.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 22.
 (/usr/share/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 30.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 22.
+ [1
 
-Overfull \hbox (6.27837pt too wide) in paragraph at lines 31--32
+]
+Chapter 2.
+[2
+
+]
+Chapter 3.
+[3
+
+]
+Overfull \hbox (6.27837pt too wide) in paragraph at lines 57--58
 []\OT1/cmr/m/n/10 Airflow (in-crease aero-dy-nam-ics, re-leas-ing pres-sure ar-
 eas, pre-vent-ing buildup
  []
 
-[2
-
-] [3]
-Chapter 3.
-[4
-
-]
+[4]
 Chapter 4.
 [5
 
-] [6]
+]
 Chapter 5.
-(./TheMrxProject.gls [7
+[6
 
-]) [8
+] [7]
+Chapter 6.
+(./TheMrxProject.gls [8
+
+]) [9
 
 ] (./TheMrxProject.aux (./AutomotiveGlossary.aux)) ) 
 Here is how much of TeX's memory you used:
- 4656 strings out of 495062
- 60847 string characters out of 3182743
+ 4658 strings out of 495062
+ 60868 string characters out of 3182744
  155873 words of memory out of 3000000
- 7753 multiletter control sequences out of 15000+200000
- 10127 words of font info for 36 fonts, out of 3000000 for 9000
+ 7754 multiletter control sequences out of 15000+200000
+ 10295 words of font info for 37 fonts, out of 3000000 for 9000
  14 hyphenation exceptions out of 8191
  46i,6n,38p,1476b,198s stack positions out of 5000i,500n,10000p,200000b,50000s
 </usr/share/texmf-dist/font
 s/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texmf-dist/fonts/type1/public
 /amsfonts/cm/cmbx12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/c
 mr10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/
-share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-di
-st/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on TheMrxProject.pdf (10 pages, 87472 bytes).
+share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texmf-dis
+t/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-dist/fonts/type1/
+public/amsfonts/cm/cmti10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfont
+s/cm/cmtt10.pfb>
+Output written on TheMrxProject.pdf (11 pages, 114059 bytes).
 PDF statistics:
- 61 PDF objects out of 1000 (max. 8388607)
- 42 compressed objects within 1 object stream
+ 72 PDF objects out of 1000 (max. 8388607)
+ 50 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
