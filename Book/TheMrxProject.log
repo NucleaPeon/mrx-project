@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=pdflatex 2014.1.12)  28 FEB 2014 04:24
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=pdflatex 2014.1.12)  17 APR 2014 16:12
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -573,24 +573,24 @@ Chapter 3.
 [3
 
 ]
-Overfull \hbox (6.27837pt too wide) in paragraph at lines 57--58
+Overfull \hbox (6.27837pt too wide) in paragraph at lines 49--50
 []\OT1/cmr/m/n/10 Airflow (in-crease aero-dy-nam-ics, re-leas-ing pres-sure ar-
 eas, pre-vent-ing buildup
  []
 
-[4]
+[4] [5]
 Chapter 4.
-[5
+[6
 
 ]
 Chapter 5.
-[6
+[7
 
-] [7]
+] [8]
 Chapter 6.
-(./TheMrxProject.gls [8
+(./TheMrxProject.gls [9
 
-]) [9
+]) [10
 
 ] (./TheMrxProject.aux (./AutomotiveGlossary.aux)) ) 
 Here is how much of TeX's memory you used:
@@ -609,10 +609,10 @@ share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texmf-dis
 t/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-dist/fonts/type1/
 public/amsfonts/cm/cmti10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfont
 s/cm/cmtt10.pfb>
-Output written on TheMrxProject.pdf (11 pages, 114059 bytes).
+Output written on TheMrxProject.pdf (12 pages, 119372 bytes).
 PDF statistics:
- 72 PDF objects out of 1000 (max. 8388607)
- 50 compressed objects within 1 object stream
+ 75 PDF objects out of 1000 (max. 8388607)
+ 52 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
